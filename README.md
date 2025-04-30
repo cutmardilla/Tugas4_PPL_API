@@ -43,15 +43,13 @@ API ini dibangun menggunakan Express dan TypeScript untuk mengelola data film fa
     - Method: POST
     - Endpoint: /api/films
     - Body Request:
-
 {
   "title": "Interstellar",
   "director": "Christopher Nolan",
   "year": 2014,
   "genre": "Sci-Fi"
 }
-
-- Contoh Response:
+    - Contoh Response:
 
     {
       "id": 3,
