@@ -3,13 +3,10 @@ API ini dibangun menggunakan Express dan TypeScript untuk mengelola data film fa
 
 ## Fitur
 
-    - Melihat Semua Film
-
-    - Method: GET
-
-    - Endpoint: /api/films
-
-    - Contoh Response:
+- Melihat Semua Film
+- Method: GET
+- Endpoint: /api/films
+- Contoh Response:
 
     [
       {
@@ -31,9 +28,7 @@ API ini dibangun menggunakan Express dan TypeScript untuk mengelola data film fa
 ## Melihat Film Berdasarkan ID
 
     - Method: GET
-
     - Endpoint: /api/films/:id
-
     - Contoh Response:
 
     {
@@ -43,13 +38,10 @@ API ini dibangun menggunakan Express dan TypeScript untuk mengelola data film fa
       "year": 2010,
       "genre": "Sci-Fi"
     }
-
-- Menambahkan Film Baru
+## Menambahkan Film Baru
 
     - Method: POST
-
     - Endpoint: /api/films
-
     - Body Request:
 
 {
@@ -70,12 +62,9 @@ API ini dibangun menggunakan Express dan TypeScript untuk mengelola data film fa
     }
 
 ## Mengupdate Data Film
-
-    - Method: PUT
-
-    - Endpoint: /api/films/:id
-
-    - Body Request:
+- Method: PUT
+- Endpoint: /api/films/:id
+- Body Request:
 
 {
   "title": "Inception Updated",
